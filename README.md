@@ -1,3 +1,28 @@
+# Bias-Free Gerrymandering Using Simulated Annealing
+
+Author: Max Dunn
+
+## How to run:
+
+From the terminal or command prompt:
+
+`> python main.py smallState.py`
+ or
+`> python main.py largeState.py`
+
+Example user input prompt:
+```
+State Initialized:
+ - Number of Voters: 64
+ - Rows: 8
+ - Columns: 8
+Please enter a number of districts for this statethat is a factor of 64:
+>
+```
+At this point, the user should enter a factor of 64, such as 8.
+
+Example Program Output:
+```
 ---------------------------------------
  Program Summary
 ---------------------------------------
@@ -54,4 +79,9 @@ Row\Col |    0    1    2    3    4    5    6    7
 ---------------------------------------
  Search States Explored: 334
 ---------------------------------------
+```
+
+# Known Bugs:
+
+When running with 'smallState.py', keep number of districts above 4. I'm working on a solution.
 

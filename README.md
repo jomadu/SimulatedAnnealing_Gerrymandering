@@ -6,11 +6,11 @@ Author: Max Dunn
 
 From the terminal or command prompt:
 
-    `> python main.py smallState.py`
+    > python main.py smallState.py
 
                 - or -
 
-    `> python main.py largeState.py`
+    > python main.py largeState.py
 
 # Known Bugs:
 
